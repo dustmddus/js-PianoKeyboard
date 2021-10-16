@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(218, 209, 84);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.piano {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding-top: 50px;
+}
+.piano-key-white {
+  background-color: aliceblue;
+  border: 1px solid black;
+  width: 60px;
+  height: 210px;
+  box-shadow: 1px 6px 0 rgb(0, 0, 0, 0.5);
+}
+.piano-key-black {
+  position: absolute;
+  top: 50px;
+  margin-left: 40px;
+  background-color: black;
+  width: 45px;
+  height: 110px;
+  box-shadow: 1px 6px 0 rgb(0, 0, 0, 0.5);
+}
+
+.piano-key-white:active {
+  box-shadow: 1px 1px 0 rgb(0, 0, 0, 0.5);
+}
+
+.piano-key-black:active {
+  box-shadow: 1px 1px 0 rgb(0, 0, 0, 0.5);
+}
+.active {
+  box-shadow: 1px 1px 0 rgb(0, 0, 0, 0.5);
+}
